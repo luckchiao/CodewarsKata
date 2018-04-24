@@ -10,7 +10,7 @@ namespace AnagramDetection
     {
         static void Main(string[] args)
         {
-            bool result = IsAnagram("foefet", "toffee");
+           IsAnagram("Buckethead", "DeathCubeK");
         }
 
         public static bool IsAnagram(string test, string original)
