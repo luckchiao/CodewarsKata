@@ -12,7 +12,7 @@ namespace FindMissingTermInArithmeticProgression
         {
         }
 
-        public static int FindMissing(List<int> list)
+        public static int FindMissing(List<int> list) 
         {
             List<int> temp = new List<int>();
             for (int i = 0; i < list.Count; i++)
