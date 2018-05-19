@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplesOf3Or5", "MultiplesOf3Or5\MultiplesOf3Or5.csproj", "{F53C1F93-2C51-46AC-81D3-19FC663FC2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplesOf3Or5Tests", "MultiplesOf3Or5Tests\MultiplesOf3Or5Tests.csproj", "{246BB78C-4057-4D26-A666-E5B942B12C75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F53C1F93-2C51-46AC-81D3-19FC663FC2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53C1F93-2C51-46AC-81D3-19FC663FC2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53C1F93-2C51-46AC-81D3-19FC663FC2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53C1F93-2C51-46AC-81D3-19FC663FC2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246BB78C-4057-4D26-A666-E5B942B12C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246BB78C-4057-4D26-A666-E5B942B12C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246BB78C-4057-4D26-A666-E5B942B12C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246BB78C-4057-4D26-A666-E5B942B12C75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3158B258-28B1-4383-8129-EBDB6749673D}
+	EndGlobalSection
+EndGlobal
