@@ -11,7 +11,7 @@ namespace HighestRankNumberInArray
         public static int HighestRank(int[] iarr)
         {
             var numbers = iarr.ToList();
-            return numbers.GroupBy(g => g).OrderByDescending(o => o.Count()).Select(s => s.Key).FirstOrDefault();
+            return numbers.GroupBy(g => g).OrderByDescending(o => o.Count()).ThenByDescending(t=>t.Key).Select(s => s.Key).FirstOrDefault();
         }
     }
 }
